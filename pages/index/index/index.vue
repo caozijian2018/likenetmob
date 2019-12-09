@@ -11,11 +11,11 @@
             ></video-head>
             <video-banner></video-banner>
             <!--  -->
-            <h1 class="third_div_title font_size_21 text_center margin_top_4 margin_bottom_3">
+            <h1 class="third_div_title text_center title_style">
                 What We Do
             </h1>
             <div class="third_div margin_bottom_3 margin_top_3 padding_bottom_30">
-                <div class="width_80_pc margin_auto media_flex_row_800 intro_parent display_flex flex_jusify_space">
+                <!-- <div class="width_80_pc margin_auto media_flex_row_800 intro_parent display_flex flex_jusify_space">
                     <div
                         v-for="(item,index) in list1"
                         :key="item.title"
@@ -26,25 +26,34 @@
                         <img :src="item.img" alt />
                         <div class="font_size_15">{{item.title}}</div>
                     </div>
-                </div>
+                </div> -->
                 <div class="display_flex what_wedo_info_box width_80_pc margin_top_4 margin_auto flex_jusify_space">
                     <div class="width_45">
-                        <h1 class="margin_bottom_3 font_size_30">{{list1[selectedIndex].title}}</h1>
+                        <h1 class="margin_bottom_3 font_size_30">{{list1[0].title}}</h1>
                         <div class="line_height_35px font_size_20 gray" style="line-height: 35px;">
-                            {{list1[selectedIndex].txt}}
+                            {{list1[0].txt}}
                         </div>
                     </div>
-                    <img class="width_45 phone_width_100" :src="list1[selectedIndex].bigimg" alt />
-                    <!-- <h2 class="flex_1">
-                        xx
-                    </h2> -->
+                    <img class="width_45 phone_width_100" :src="list1[0].bigimg" alt />
                 </div>
             </div>
-            <h1 class="font_size_21 text_center margin_top_4 margin_bottom_3">
+            <!-- new -->
+            <div class="margin_top_4 third_div margin_bottom_3 padding_bottom_30" style="margin-top: 170px">
+                <div class="display_flex what_wedo_info_box width_80_pc margin_top_4 margin_auto flex_jusify_space">
+                    <img class="width_45 phone_width_100" :src="list1[1].bigimg" alt />
+                    <div class="width_45">
+                        <h1 class="margin_bottom_3 font_size_30">{{list1[1].title}}</h1>
+                        <div class="line_height_35px font_size_20 gray" style="line-height: 35px;">
+                            {{list1[1].txt}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="text_center title_style">
                 Our Partners
             </h1>
              <partener></partener>
-             <h1 class="font_size_21 text_center margin_top_4 margin_bottom_3">
+             <h1 class="text_center title_style">
                 Our Services
             </h1>
             <!-- <video-banner></video-banner> -->
@@ -66,15 +75,13 @@
             <div class="width_80_pc margin_auto display_flex phone_block flex_jusify_space margin_bottom_4">
                 <div class="width_30 phone_width_100 text_center phone_margin_bottom_20" v-for="item in list2" :key="item.title">
                     <img :src="item.bigimg" class="width_100 phone_width_90" alt="">
-                    <div class="margin_bottom_2 margin_top_10 font_size_15 gray phone_margin_auto phone_width_90">
+                    <div class="margin_bottom_2 margin_top_10 font_size_15 gray phone_margin_auto phone_width_90 line_height_25px">
                         {{item.txt}}
                     </div>
                 </div>
             </div>
-            <div class="text_center">
-                <h1>
-                    Contact Us
-                </h1>
+            <div class="text_center title_style">
+                Contact Us
             </div>
             <!-- 邮箱 -->
             <div class="map_">
@@ -108,6 +115,8 @@
                     </div>
                 </div>
             </div>
+            <!-- footer -->
+            <app-footer></app-footer>
         </div>
     </div>
 </template>
@@ -117,12 +126,15 @@ import bus from "../../../util/bus";
 import videoBanner from "../../../components/banner";
 import partener from "../../../components/partener";
 import videoHead from "../../../components/videoHead";
+import AppFooter from "../../../components/footer";
+
 
 export default {
     components: {
         videoBanner,
         videoHead,
-        partener
+        partener,
+        AppFooter
     },
     mounted() {
         this.whatchScroll();

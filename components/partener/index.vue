@@ -6,7 +6,7 @@
                 :key="item.title"
                 class=""
             >
-                <div class="width_50 phone_width_80 margin_auto display_flex flex_jusify_space">
+                <div class="width_65 phone_width_80 margin_auto display_flex flex_jusify_space">
                     <img
                         v-for="img_obj in item"
                         :key="img_obj.title"
@@ -57,60 +57,56 @@ export default {
                 }
             ],
             
-            list4: [
-                {
-                    img: require("../../static/img/parteners/ais.png"),
-                    title: "AIS",
-                },
-                {
-                    img: require("../../static/img/parteners/celcom.png"),
-                    title: "CELCOM",
-                },
-                {
-                    img: require("../../static/img/parteners/digi.png"),
-                    title: "DIGI",
-                },
-                {
-                    img: require("../../static/img/parteners/dtac.png"),
-                    title: "DTAC",
-                },
-                {
-                    img: require("../../static/img/parteners/facebook.png"),
-                    title: "facebook",
-                },
-                {
-                    img: require("../../static/img/parteners/celcom.png"),
-                    title: "CELCOM",
-                },
-                {
-                    img: require("../../static/img/parteners/google.png"),
-                    title: "GOOGLE",
-                },
-                {
-                    img: require("../../static/img/parteners/maxis.png"),
-                    title: "maxis",
-                },
-                {
-                    img: require("../../static/img/parteners/o2.png"),
-                    title: "O2",
-                },
-                {
-                    img: require("../../static/img/parteners/orange.png"),
-                    title: "orange",
-                },
-                {
-                    img: require("../../static/img/parteners/t.png"),
-                    title: "T",
-                },
-                {
-                    img: require("../../static/img/parteners/vodafone.png"),
-                    title: "vodafone",
-                },
-                {
-                    img: require("../../static/img/parteners/wind.png"),
-                    title: "wind",
+            list4: [{
+                img: require("../../static/img/parteners/ais.png"),
+                title: "Facebook",
+            },
+            {
+                img: require("../../static/img/parteners/celcom.png"),
+                title: "Google",
                 },
             
+            {
+                img: require("../../static/img/parteners/digi.png"),
+                title: "Truemove",
+            },
+            {
+                img: require("../../static/img/parteners/dtac.png"),
+                title: "Digi",
+            },
+            {
+                img: require("../../static/img/parteners/facebook.png"),
+                title: "Dtac",
+            },
+            {
+                img: require("../../static/img/parteners/google.png"),
+                title: "Celcom",
+            },
+            {
+                img: require("../../static/img/parteners/maxis.png"),
+                title: "Vodafone",
+            },
+            {
+                img: require("../../static/img/parteners/o2.png"),
+                title: "Orange",
+            },
+            {
+                img: require("../../static/img/parteners/orange.png"),
+                title: "O2",
+            },
+            {
+                img: require("../../static/img/parteners/t.png"),
+                title: "O2",
+            },
+            {
+                img: require("../../static/img/parteners/vodafone.png"),
+                title: "O2",
+            },
+            {
+                img: require("../../static/img/parteners/wind.png"),
+                title: "O2",
+            }
+
             ]
         };
     },
@@ -164,14 +160,14 @@ export default {
         background: #ffffff;
     }
     .img{
-        width:100px;
+        width:200px;
     }
 }
 // phone style
 @media screen and (max-width: 800px){
     .partt {
         .img{
-            width:20%;
+            width:30%;
         }
     }
 }

@@ -1,15 +1,15 @@
 <template>
     <div>
-        <el-carousel class="xxx" :height="$store.state.is_pc ? banner_height : '300px'" :interval="5000" :arrow="$store.state.is_pc ? 'always':''">
+        <el-carousel class="xxx" :height="$store.state.is_pc ? banner_height : '400px'" :interval="5000" :arrow="$store.state.is_pc ? 'always':''">
             <el-carousel-item>
-                <img src="../../static/img/b1.jpg" :height="$store.state.is_pc ? banner_height : '300px'"  style="" alt="" class="width_100">
+                <img src="../../static/img/b1.png" :height="$store.state.is_pc ? banner_height : '400px'"  style="" alt="" class="width_100">
             </el-carousel-item>
             <el-carousel-item>
-                <img src="../../static/img/b2.jpg" :height="$store.state.is_pc ? banner_height : '300px'"  alt="" class="width_100">
+                <img src="../../static/img/b2.png" :height="$store.state.is_pc ? banner_height : '400px'"  alt="" class="width_100">
             </el-carousel-item>
-            <el-carousel-item>
+            <!-- <el-carousel-item>
                 <img src="../../static/img/b3.jpg" :height="$store.state.is_pc ? banner_height : '300px'"  alt="" class="width_100">
-            </el-carousel-item>
+            </el-carousel-item> -->
         </el-carousel>
     </div>
 </template>
@@ -48,7 +48,7 @@
             },
             setHeight() {
                 this.$nextTick(() => {
-                    this.banner_height = (parseInt(this.$jquery(this.$jquery('.el-carousel__mask')[0]).css("width")) / 3 || getInnerWidth() / 3) + "px";
+                    this.banner_height = (parseInt(this.$jquery(this.$jquery('.el-carousel__mask')[0]).css("width")) / 2 || getInnerWidth() / 2) + "px";
                 })
             },
             watchWidth() {

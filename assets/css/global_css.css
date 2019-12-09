@@ -88,7 +88,10 @@ html {
 .padding_top_70 {
   padding-top: 7rem;
 }
-
+.title_style{
+  margin: 160px 0 80px;
+  font-size: 50px;
+}
 .padding_1 {
   padding: 1rem;
 }
