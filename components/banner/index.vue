@@ -1,10 +1,10 @@
 <template>
-    <div>
+    <div class="position_relative">
+        <h1 class="pcs font_size_50 white">
+            Buying solution for hero APP
+        </h1>
         <el-carousel class="xxx" :height="$store.state.is_pc ? banner_height : '400px'" :interval="5000" :arrow="$store.state.is_pc ? 'always':''">
             <el-carousel-item>
-                <h1 class="pcs font_size_50 white">
-                    Buying solution for hero APP
-                </h1>
                 <img src="../../static/img/b1.png" :height="$store.state.is_pc ? banner_height : '400px'"  style="" alt="" class="width_100">
             </el-carousel-item>
             <el-carousel-item>
