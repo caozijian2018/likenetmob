@@ -7,13 +7,16 @@
                 class=""
             >
                 <div class="width_65 phone_width_80 margin_auto display_flex flex_jusify_space">
-                    <img
-                        v-for="img_obj in item"
-                        :key="img_obj.title"
-                        :src="img_obj.img"
-                        alt
+                    <div v-for="img_obj in item"
                         class="img"
-                    />
+                        :key="img_obj.title">
+                        <img
+                            :src="img_obj.img"
+                            alt
+                            class="width_100"
+                        />
+                    </div>
+                    
                 </div>
             </el-carousel-item>
         </el-carousel>

@@ -34,13 +34,17 @@
                             {{list1[0].txt}}
                         </div>
                     </div>
-                    <img class="width_45 phone_width_100" :src="list1[0].bigimg" alt />
+                    <div class="width_45 phone_width_100">
+                        <img class="width_100" :src="list1[0].bigimg" alt />
+                    </div>
                 </div>
             </div>
             <!-- new -->
             <div class="margin_top_4 third_div margin_bottom_3 padding_bottom_30" style="margin-top: 170px">
                 <div class="display_flex what_wedo_info_box width_80_pc margin_top_4 margin_auto flex_jusify_space">
-                    <img class="width_45 phone_width_100" :src="list1[1].bigimg" alt />
+                    <div class="width_45 phone_width_100" >
+                        <img class="width_100" :src="list1[1].bigimg" alt />
+                    </div>
                     <div class="width_45">
                         <h1 class="margin_bottom_3 font_size_30">{{list1[1].title}}</h1>
                         <div class="line_height_35px font_size_20 gray" style="line-height: 35px;">
