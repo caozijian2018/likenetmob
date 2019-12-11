@@ -166,13 +166,13 @@ export default {
                     img: require("../../../static/img/l1.png"),
                     bigimg: require("../../../static/img/w1.jpg"),
                     title: "CONTENT PROVIDER",
-                    txt: "Dreamfii is a digital content provider aiming at providing premium services to global mobile users. With our services, users can enjoy a wide range of game, music and video content on their phones. Our model lets users subscribe for unlimited entertainment resources without adds. "
+                    txt: "likenetmob is a digital content provider aiming at providing premium services to global mobile users. With our services, users can enjoy a wide range of game, music and video content on their phones. Our model lets users subscribe for unlimited entertainment resources without adds. "
                 },
                 {
                     img: require("../../../static/img/l2.png"),
                     bigimg: require("../../../static/img/w2.jpg"),
                     title: "ADVERTISING SOLUTIONS",
-                    txt: "Based on user analysis and market investigation, Dreamfii provides advertising solutions for companies that want to promote products in global market. With experienced media buying team, professional affiliate network and publisher team, we offer advertising services to more than 1000 companies word wide. "
+                    txt: "Based on user analysis and market investigation,  likenetmob provides advertising solutions for companies that want to promote products in global market. With experienced media buying team, professional affiliate network and publisher team, we offer advertising services to more than 1000 companies word wide. "
                 }
             ],
             list2: [
@@ -197,13 +197,13 @@ export default {
             list3: [{
                 img: require("../../../static/img/addr.png"),
                 title: "Address",
-                txt: "ROOM 3 27/F HO KING COMMERCIAL CENTRE NO 2-16 FA YUEN STREET MONGKOK KL",
+                txt: "香港九龍新蒲崗六合 29 號宏輝工業大廈 2 樓 3 號",
 
             },
             {
                 img: require("../../../static/img/email.png"),
                 title: "Email",
-                txt: "Customer@dreamfii.com"
+                txt: "smile@likenetmob.com"
                 }
             ],
             
