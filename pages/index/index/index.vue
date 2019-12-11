@@ -166,13 +166,13 @@ export default {
                     img: require("../../../static/img/l1.png"),
                     bigimg: require("../../../static/img/w1.jpg"),
                     title: "CONTENT PROVIDER",
-                    txt: "likenetmob is a digital content provider aiming at providing premium services to global mobile users. With our services, users can enjoy a wide range of game, music and video content on their phones. Our model lets users subscribe for unlimited entertainment resources without adds. "
+                    txt: "LikenetMob is a digital content provider aiming at providing premium services to global mobile users. With our services, users can enjoy a wide range of game, music and video content on their phones. Our model lets users subscribe for unlimited entertainment resources without adds. "
                 },
                 {
                     img: require("../../../static/img/l2.png"),
                     bigimg: require("../../../static/img/w2.jpg"),
                     title: "ADVERTISING SOLUTIONS",
-                    txt: "Based on user analysis and market investigation,  likenetmob provides advertising solutions for companies that want to promote products in global market. With experienced media buying team, professional affiliate network and publisher team, we offer advertising services to more than 1000 companies word wide. "
+                    txt: "Based on user analysis and market investigation,  LikenetMob provides advertising solutions for companies that want to promote products in global market. With experienced media buying team, professional affiliate network and publisher team, we offer advertising services to more than 1000 companies word wide. "
                 }
             ],
             list2: [

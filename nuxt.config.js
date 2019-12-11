@@ -22,7 +22,7 @@ module.exports = {
     WTAT_THIS_APP:"humorboom"
   },
   head: {
-    title: 'Likenetmob',
+    title: 'LikenetMob',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
