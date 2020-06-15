@@ -1,4 +1,5 @@
 git pull
 npm install 
 npm run build
-pm2 restart likenetmob
+npm run generate
+# pm2 restart likenetmob
