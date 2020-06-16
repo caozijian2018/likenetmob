@@ -203,7 +203,7 @@ export default {
             {
                 img: require("../../../static/img/email.png"),
                 title: "Email",
-                txt: "smile@likenetmob.com"
+                txt: "doris@likenetmob.com"
                 }
             ],
             
